@@ -546,6 +546,20 @@ body.menu-open {
 
     .page-banner__content h1 {
         font-size: 4.5rem;
+        text-align: center;
+    }
+
+    .page-banner__text-wrapper {
+        justify-content: center;
+    }
+
+    .page-banner__content {
+        gap: 20px;
+    }
+
+    .btn {
+        padding: 10px 5px;
+        font-size: 15px;
     }
 }
 
