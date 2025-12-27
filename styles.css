@@ -270,7 +270,9 @@ img {
     color: var(--color-text-gray);
 }
 
-.benefits-card__image-container {}
+.benefits-card__image-container img {
+    object-fit: cover;
+}
 
 .footer {
     border-radius: 40px 40px 0 0;
